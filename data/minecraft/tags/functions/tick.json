@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "spells:fireball/way",
+		"spells:light/way",
+		"spells:pig/way",
+		"spells:evoker/way",
+		"spells:wither/way",
+        "spells:arrow/way",
+        "spells:spectralhorse/way",
+        "lib:wanduse",
+        "lib:boss"
+    ]
+}

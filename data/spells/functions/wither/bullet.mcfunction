@@ -1,0 +1,2 @@
+execute at @e[tag=!wither, distance=0..2, type=!player] run summon area_effect_cloud ~ ~ ~ {Radius:3f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:80,DurationOnUse:0f,Effects:[{Id:20,Amplifier:20b,Duration:1}]}
+kill @s

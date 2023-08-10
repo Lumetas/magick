@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Убийца"
+        },
+        "description": {
+            "text": "Убей жителя"
+        },
+        "icon": {
+            "item": "minecraft:carrot"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "kill horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lore:fargronegg"
+    },
+    "parent": "chor:adv8"
+}

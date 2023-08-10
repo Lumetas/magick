@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:compass"
+      },
+      "title": "Магнитизм",
+      "description": "Создать компас"
+    },
+    "parent": "chor:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:compass"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "lore:magnit"
+    }
+  }
+  

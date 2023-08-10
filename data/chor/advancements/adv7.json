@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Властитель гравитации"
+        },
+        "description": {
+            "text": "Научитесь управлять левитацией"
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "levit": {
+            "trigger": "minecraft:levitation"
+        }
+    },
+    "rewards": {
+        "function": "lore:levit"
+    },
+    "parent": "chor:adv6"
+}

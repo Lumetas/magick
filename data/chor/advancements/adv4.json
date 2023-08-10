@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lightning_rod"
+      },
+      "title": "Громовержец",
+      "description": "Создать громоотвод дабы подчинить грозу"
+    },
+    "parent": "chor:adv3",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:lightning_rod"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "lore:light"
+    }
+  }
+  

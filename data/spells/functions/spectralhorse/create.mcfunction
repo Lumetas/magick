@@ -1,0 +1,2 @@
+xp add @s -2 levels
+summon skeleton_horse ~ ~ ~ {NoAI:1b,Health:1f,Tame:1b,SkeletonTrap:0b,Tags:["spectralhorse"],Attributes:[{Name:generic.movement_speed,Base:0.6},{Name:horse.jump_strength,Base:1}],SaddleItem:{id:"minecraft:saddle",Count:1b}}

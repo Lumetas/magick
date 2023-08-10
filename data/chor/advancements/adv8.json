@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:porkchop"
+      },
+      "title": "Живодёр",
+      "description": "собрать 64 свинины"
+    },
+    "parent": "chor:adv7",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:porkchop"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "lore:pig"
+    }
+  }
