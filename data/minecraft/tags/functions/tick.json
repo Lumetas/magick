@@ -11,7 +11,6 @@
         "lib:wanduse",
         "lib:boss",
         "spells:hole/way",
-        "spells:hole/hole",
-        "spells:fireway/way"
+        "spells:hole/hole"
     ]
 }
