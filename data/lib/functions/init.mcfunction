@@ -4,3 +4,4 @@ team modify nocol collisionRule never
 scoreboard objectives add lum dummy
 scoreboard objectives add cast minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add onground dummy
+scoreboard objectives add hole dummy

@@ -20,6 +20,10 @@ execute as @a[scores={cast=1..}, nbt={SelectedItem:{tag:{Tags:["levit"]}}}, leve
 
 execute as @a[scores={cast=1..}, nbt={SelectedItem:{tag:{Tags:["magnit"]}}}, level=1..] at @s run function spells:magnit/create
 
+execute as @a[scores={cast=1..}, nbt={SelectedItem:{tag:{Tags:["hole"]}}}, level=45..] at @s run function spells:hole/create
+
+execute as @a[scores={cast=1..}, nbt={SelectedItem:{tag:{Tags:["fireway"]}}}, level=18..] at @s run function spells:fireway/create
+
 
 
 scoreboard players set @a[scores={cast=1..}] cast 0

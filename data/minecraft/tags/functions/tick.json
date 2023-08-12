@@ -9,6 +9,9 @@
         "spells:arrow/way",
         "spells:spectralhorse/way",
         "lib:wanduse",
-        "lib:boss"
+        "lib:boss",
+        "spells:hole/way",
+        "spells:hole/hole",
+        "spells:fireway/way"
     ]
 }
