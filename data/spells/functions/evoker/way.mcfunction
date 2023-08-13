@@ -4,6 +4,8 @@ execute as @e[tag=evok] at @s positioned ~ ~ ~ run summon armor_stand ~ ~ ~ {Sho
 
 execute as @e[tag=evok] at @s positioned ~ ~ ~ run scoreboard players add @s lum 1
 
+execute as @e[tag=evok, scores={lum=30..}] at @s run function spells:evoker/bullet
+
 execute as @e[tag=evok] at @s unless block ~ ~ ~ air run function spells:evoker/bullet
 
 execute as @e[tag=evok] at @s if entity @e[tag=!player_fangs, tag=!evok, distance=0..2, type=!player, type=!evoker_fangs] run function spells:evoker/bullet
