@@ -1,3 +1,4 @@
+kill @e[tag=hole]
 say загрузка настроек
 team add nocol
 team modify nocol collisionRule never
